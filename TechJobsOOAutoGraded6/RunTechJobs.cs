@@ -8,7 +8,6 @@ namespace TechJobsOOAutoGraded6
     {
         public void RunProgram()
         {
-            /* TODO: Task 4: Remove this line to uncomment the RunProgram method once you complete the Job class
 
                 Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
                 Job job2 = new Job("Web Developer", new Employer("LaunchCode"), new Location("St. Louis"), new PositionType("Front-end developer"), new CoreCompetency("JavaScript"));
@@ -23,9 +22,6 @@ namespace TechJobsOOAutoGraded6
                 {
                     Console.WriteLine(job);
                 }
-
-            TODO: Task 4: Remove this line to uncomment the RunProgram method once you complete the Job class */
-
         }
     }
 }

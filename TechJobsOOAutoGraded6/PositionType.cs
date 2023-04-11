@@ -19,10 +19,6 @@ namespace TechJobsOOAutoGraded6
         }
 
         // TODO: Task 2: Add custom Equals(), GetHashCode(), and ToString() methods.
-        public override string ToString()
-        {
-            return Value;
-        }
 
         public override bool Equals(object? obj)
         {
@@ -33,6 +29,11 @@ namespace TechJobsOOAutoGraded6
         public override int GetHashCode()
         {
             return HashCode.Combine(Id);
+        }
+
+        public override string ToString()
+        {
+            return Value;
         }
     }
 }
